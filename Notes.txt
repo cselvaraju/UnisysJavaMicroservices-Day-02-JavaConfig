@@ -1,0 +1,16 @@
+BEAN SCOPES
+	The bean scope controls how the beans are instantiated
+	whenever we call the getBean method on the context
+	
+1. Singleton
+	This is the default scope.
+	Every time getBean is called, you get access to the SAME BEAN instance
+	
+2. Prototype
+	A new bean instance is provided for every getBean method call
+	
+3. Request
+	A new bean instance is provided for every HTTP request
+	
+4. Session
+	A new bean instance is provided per HTTP session
